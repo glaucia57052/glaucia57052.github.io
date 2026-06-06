@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1828/1828884.png">
+</head>
+
+<body>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="about.html">Sobre</a>
+        <a href="curriculum.html">Currículo</a>
+        <a href="contact.html">Contato</a>
+        <a href="receitas.html">Receitas</a>
+    </nav>
+
+    <div class="toolbar">
+        <button onclick="toggleDarkMode()" title="Modo Noturno">🌙</button>
+        <button onclick="aumentarFonte()" title="Aumentar fonte">A+</button>
+        <button onclick="diminuirFonte()" title="Diminuir fonte">A-</button>
+    </div>
+
+    <div class="container">
+
+        <h1>Contato</h1>
+
+        <form id="formContato">
+
+            Nome:<br>
+            <input type="text" id="nome"><br><br>
+
+            Email:<br>
+            <input type="email" id="email"><br><br>
+
+            Mensagem:<br>
+            <textarea id="mensagem"></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+        <div class="footer">
+            <p></p>
+        </div>
+
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
